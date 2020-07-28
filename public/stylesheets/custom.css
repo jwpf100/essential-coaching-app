@@ -29,8 +29,8 @@
 
 @media (max-width: 576px) {
   #home-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim-small.png");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim-small.png");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim-small.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim-small.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -40,8 +40,8 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
   #home-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim-mid.png");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim-mid.png");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim-mid.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim-mid.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -51,8 +51,8 @@
 
 @media (min-width: 769px) {
   #home-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim.png");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim.png");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -64,22 +64,9 @@
   text-shadow: 2px 2px 2px black;
 }
 
-#home-caption {
-  background: #222 url("../img/yellow-pencils.jpg");
-  padding-top: 3.5rem;
-  min-height: 100%;
-  background-size: cover;
-  color: white;
-}
-
-.page-down-btn {
-  height: 38px;
-  width: 38px;
-}
-
 @media (max-width: 576px) {
   #about-cover {
-    background: url("/images/hero/landscape-trim-small.png") no-repeat bottom center;
+    background: url("/images/hero/landscape-trim-small.jpg") no-repeat bottom center;
     background-size: cover;
     height: 60vh;
   }
@@ -87,7 +74,7 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
   #about-cover {
-    background: url("/images/hero/landscape-trim-mid.png") no-repeat center right;
+    background: url("/images/hero/landscape-trim-mid.jpg") no-repeat center right;
     background-size: cover;
     height: 60vh;
   }
@@ -95,8 +82,8 @@
 
 @media (min-width: 769px) {
   #about-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim.png");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim.png");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

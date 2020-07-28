@@ -1,6 +1,6 @@
 @media (max-width: 576px) {
   #home-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-trim-small.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-trim-small.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -10,7 +10,7 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
   #home-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-trim-mid.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-trim-mid.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -20,7 +20,7 @@
 
 @media (min-width: 769px) {
 #home-cover { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-trim.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-trim.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -30,21 +30,4 @@
 
 .shadow-header {
   text-shadow: 2px 2px 2px black ;
-}
-
-#home-caption {
-  background: #222 url("../img/yellow-pencils.jpg");
-  padding-top: 3.5rem;
-  min-height: 100%;
-  background-size: cover;
-  color: white;
-}
-
-.blog-trailer {
-//  min-height: 196px;
-}
-
-.page-down-btn {
-height: 38px;
-width: 38px;
 }

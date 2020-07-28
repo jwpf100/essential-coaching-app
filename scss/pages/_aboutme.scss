@@ -1,6 +1,6 @@
 @media (max-width: 576px) {
   #about-cover {
-    background: url('/images/hero/landscape-trim-small.png') no-repeat bottom center;
+    background: url('/images/hero/landscape-trim-small.jpg') no-repeat bottom center;
     background-size: cover;
     height: 60vh;
   }
@@ -8,7 +8,7 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
   #about-cover {
-    background: url('/images/hero/landscape-trim-mid.png') no-repeat center right;
+    background: url('/images/hero/landscape-trim-mid.jpg') no-repeat center right;
     background-size: cover;
     height: 60vh;
   }
@@ -16,7 +16,7 @@
 
 @media (min-width: 769px) {
   #about-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)), url('/images/hero/landscape-trim.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)), url('/images/hero/landscape-trim.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

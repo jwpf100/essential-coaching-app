@@ -23,9 +23,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 //Using this to include the bootstrap js modules - to be replaced with webpack
 app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')));
 
-app.use('/', indexRouter);
+app.use('/index', indexRouter);
 app.use('/users', usersRouter);
-app.use('/home', homeRouter);
+app.use('/', homeRouter);
 app.use('/aboutme', aboutmeRouter);
 
 // catch 404 and forward to error handler

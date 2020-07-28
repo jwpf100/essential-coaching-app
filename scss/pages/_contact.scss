@@ -1,0 +1,20 @@
+/* Set a background image by replacing the URL below */
+.contactme-bg {
+  background: url('../img/contact/person-typing.jpg') no-repeat left top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.contactme-bg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba($color: #000000, $alpha: 0.2);
+}
+
+

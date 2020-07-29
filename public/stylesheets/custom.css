@@ -23,6 +23,10 @@
   padding-top: 3.5rem;
 }
 
+.bumpup {
+  padding-bottom: 3.5rem;
+}
+
 .nav-item {
   font-size: 1.25rem;
 }
@@ -145,20 +149,41 @@ ul {
 }
 
 /* Set a background image by replacing the URL below */
-.contactme-bg {
-  background: url("../img/contact/person-typing.jpg") no-repeat left top fixed;
-  background-size: cover;
-  -o-background-size: cover;
+@media (max-width: 576px) {
+  #contact-cover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim-small.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim-small.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+  }
 }
 
-.contactme-bg:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.2);
+@media (min-width: 577px) and (max-width: 768px) {
+  #contact-cover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim-mid.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim-mid.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 769px) {
+  #contact-cover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+}
+
+.contact-background {
+  background: rgba(239, 239, 239, 0.5);
 }
 
 .features-icons .features-icons-item {
@@ -389,6 +414,10 @@ ul {
 
 .footer {
   font-size: 1.1rem;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /*!

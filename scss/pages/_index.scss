@@ -1,6 +1,6 @@
 @media (max-width: 576px) {
   #home-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-trim-small.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-home-mob-sm.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -10,9 +10,9 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
   #home-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-trim-mid.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-home-md.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     min-height: 60vh;
   }
@@ -20,13 +20,33 @@
 
 @media (min-width: 769px) {
 #home-cover { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-trim.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-home-lg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     min-height: 60vh;
   }
 }
+
+@media (min-width: 1201px) {
+  #home-cover { 
+      background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-home-xl.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      min-height: 60vh;
+    }
+  }
+
+@media (min-width: 1500px) {
+  #home-cover { 
+      background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-home-xl.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      min-height: 60vh;
+    }
+  }
 
 .shadow-header {
   text-shadow: 2px 2px 2px black ;

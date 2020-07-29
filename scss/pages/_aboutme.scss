@@ -1,28 +1,52 @@
 @media (max-width: 576px) {
   #about-cover {
-    background: url('/images/hero/landscape-trim-small.jpg') no-repeat bottom center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-home-mob-sm.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    height: 60vh;
+    min-height: 60vh;
   }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
   #about-cover {
-    background: url('/images/hero/landscape-trim-mid.jpg') no-repeat center right;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-home-md.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
     background-size: cover;
-    height: 60vh;
+    min-height: 60vh;
   }
 }
 
 @media (min-width: 769px) {
-  #about-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)), url('/images/hero/landscape-trim.jpg');
+#about-cover { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-home-lg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 60vh;
+    min-height: 60vh;
   }
 }
+
+@media (min-width: 1201px) {
+  #about-cover { 
+      background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-home-xl.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      min-height: 60vh;
+    }
+  }
+
+@media (min-width: 1500px) {
+  #about-cover { 
+      background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('/images/hero/landscape-home-xl.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      min-height: 60vh;
+    }
+  }
 
 ul {
   list-style-type: circle;

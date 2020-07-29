@@ -33,8 +33,8 @@
 
 @media (max-width: 576px) {
   #home-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim-small.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim-small.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-home-mob-sm.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-home-mob-sm.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -44,10 +44,10 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
   #home-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim-mid.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim-mid.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-home-md.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-home-md.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     min-height: 60vh;
   }
@@ -55,8 +55,30 @@
 
 @media (min-width: 769px) {
   #home-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-home-lg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-home-lg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 60vh;
+  }
+}
+
+@media (min-width: 1201px) {
+  #home-cover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-home-xl.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-home-xl.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 60vh;
+  }
+}
+
+@media (min-width: 1500px) {
+  #home-cover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-home-xl.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-home-xl.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -70,28 +92,56 @@
 
 @media (max-width: 576px) {
   #about-cover {
-    background: url("/images/hero/landscape-trim-small.jpg") no-repeat bottom center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-home-mob-sm.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-home-mob-sm.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    height: 60vh;
+    min-height: 60vh;
   }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
   #about-cover {
-    background: url("/images/hero/landscape-trim-mid.jpg") no-repeat center right;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-home-md.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-home-md.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
     background-size: cover;
-    height: 60vh;
+    min-height: 60vh;
   }
 }
 
 @media (min-width: 769px) {
   #about-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-home-lg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-home-lg.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 60vh;
+    min-height: 60vh;
+  }
+}
+
+@media (min-width: 1201px) {
+  #about-cover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-home-xl.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-home-xl.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 60vh;
+  }
+}
+
+@media (min-width: 1500px) {
+  #about-cover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-home-xl.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-home-xl.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 60vh;
   }
 }
 
@@ -173,8 +223,8 @@ ul {
 
 @media (min-width: 769px) {
   #contact-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-trim.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-trim.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/landscape-home-xl.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/landscape-home-xl.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

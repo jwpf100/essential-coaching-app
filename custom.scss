@@ -1,3 +1,5 @@
+// @import "./node_modules/simple-line-icons/css/simple-line-icons.css";
+// @import "./node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 // @import "./scss/layout/_main";
 @import "./scss/components/_navbar";
@@ -8,7 +10,7 @@
 @import "./scss/pages/_blog1";
 @import "./scss/components/_process-icons";
 
-@import "./scss/themes/fonts";
+@import "./scss/themes/_fonts";
 
 @import "./scss/components/flipbox";
 @import "./scss/components/_featurettes";
@@ -18,6 +20,4 @@
 
 @import "./scss/base/_override";
 
-// Need to include fonts properly when I start using webpack
-// @import "./scss/vendors/_fontawesome";
 @import "./scss/vendors/_bootstrap";

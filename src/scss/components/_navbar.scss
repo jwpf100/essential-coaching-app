@@ -1,0 +1,47 @@
+.navbar { background-color: transparent; -webkit-transition: background-color 250ms linear; -moz-transition: background-color 250ms linear; -ms-transition: background-color 250ms linear; transition: background-color 250ms linear; }
+
+.scrolled { background-color: white; -webkit-transition: background-color 250ms linear; -moz-transition: background-color 250ms linear; -ms-transition: background-color 250ms linear; transition: background-color 250ms linear; }
+
+.activated {
+  background-color: white; -webkit-transition: background-color 250ms linear; -moz-transition: background-color 250ms linear; -ms-transition: background-color 250ms linear; transition: background-color 250ms linear;
+}
+
+nav > a {
+  // line-height: 1.5rem;
+}
+
+//Needed for anything that is to push below navbar
+
+.bumpdown{
+  //padding-top: 3.5rem;
+  margin-top: 3.5rem;
+}
+.bumpdown-contact{
+  padding-top: 3.5rem;
+  //margin-top: 3.5rem;
+}
+
+.bumpup{
+  padding-bottom: 3.5rem;
+}
+
+$navbar-dark-color:                 rgba(white, .75);
+$navbar-dark-hover-color:           rgba(black, .75);
+$navbar-dark-active-color:          #f7882f;
+$navbar-dark-disabled-color:        rgba(white, .25);
+$navbar-dark-toggler-border-color:  rgba(white, .1);
+
+$navbar-light-color:                rgba(black, .5) ;
+$navbar-light-hover-color:          rgba(black, .7) ;
+$navbar-light-active-color:         #f7882f ;
+$navbar-light-disabled-color:       rgba(black, .3) ;
+$navbar-light-toggler-border-color: rgba(black, .1) ;
+
+$navbar-light-brand-color:                rgba(black, .7) ;
+$navbar-light-brand-hover-color:          rgba(black, .7) ;
+$navbar-dark-brand-color:                 rgba(white, 1) ;
+$navbar-dark-brand-hover-color:           rgba(white, 1) ;
+
+.nav-item{
+  font-size: 1rem * 1.25
+}

@@ -11,3 +11,12 @@ $enable-responsive-font-sizes: true;
 // $line-height-sm: 1.6;
 
 $line-height-base: 1.75;
+
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+// @import "../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims.scss";
+
+
+@import "../../node_modules/simple-line-icons/scss/simple-line-icons.scss";

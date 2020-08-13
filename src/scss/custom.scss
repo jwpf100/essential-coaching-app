@@ -1,0 +1,24 @@
+// @import "./node_modules/simple-line-icons/css/simple-line-icons.css";
+// @import "./node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+// @import "./layout/_main";
+@import "./components/_navbar";
+@import "./pages/_index";
+@import "./pages/_aboutme";
+@import "./pages/_contact";
+@import "./pages/_blogmain";
+@import "./pages/_blog1";
+@import "./components/_process-icons";
+
+///Temp leave until webpack fixed
+@import "./themes/_fonts";
+
+@import "./components/flipbox";
+@import "./components/_featurettes";
+@import "./components/_testimonials";
+@import "./components/_footer";
+@import "./themes/_bootstrap_overrides";
+
+@import "./base/_override";
+
+@import "./vendors/_bootstrap";

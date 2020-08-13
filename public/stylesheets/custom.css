@@ -37,8 +37,8 @@
 
 @media (max-width: 576px) {
   #home-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/hero-brick-temp.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/hero-brick-temp.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/hero/hero-brick-temp.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/hero/hero-brick-temp.jpg");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
@@ -48,8 +48,8 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
   #home-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/hero-brick-temp.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/hero-brick-temp.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/hero/hero-brick-temp.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/hero/hero-brick-temp.jpg");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
@@ -59,8 +59,8 @@
 
 @media (min-width: 769px) {
   #home-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/hero-brick-temp.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/hero-brick-temp.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/hero/hero-brick-temp.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/hero/hero-brick-temp.jpg");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
@@ -70,8 +70,8 @@
 
 @media (min-width: 1201px) {
   #home-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/hero-brick-temp.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/hero-brick-temp.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/hero/hero-brick-temp.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/hero/hero-brick-temp.jpg");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
@@ -81,8 +81,8 @@
 
 @media (min-width: 1500px) {
   #home-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/hero-brick-temp.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/hero-brick-temp.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/hero/hero-brick-temp.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/hero/hero-brick-temp.jpg");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
@@ -100,8 +100,8 @@
 
 @media (max-width: 576px) {
   #about-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/hero-garden-temp.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/hero-garden-temp.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/hero/hero-garden-temp.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/hero/hero-garden-temp.jpg");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -111,8 +111,8 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
   #about-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/hero-garden-temp.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/hero-garden-temp.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/hero/hero-garden-temp.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/hero/hero-garden-temp.jpg");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -122,8 +122,8 @@
 
 @media (min-width: 769px) {
   #about-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/hero-garden-temp.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/hero-garden-temp.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/hero/hero-garden-temp.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/hero/hero-garden-temp.jpg");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -133,8 +133,8 @@
 
 @media (min-width: 1201px) {
   #about-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/hero-garden-temp.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/hero-garden-temp.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/hero/hero-garden-temp.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/hero/hero-garden-temp.jpg");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -144,8 +144,8 @@
 
 @media (min-width: 1500px) {
   #about-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/hero/hero-garden-temp.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/hero/hero-garden-temp.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/hero/hero-garden-temp.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/hero/hero-garden-temp.jpg");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -209,8 +209,8 @@ ul {
 /* Set a background image by replacing the URL below */
 @media (max-width: 576px) {
   #contact-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/contactme/contactme-1038395047.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/contactme/contactme-1038395047.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/contactme/contactme-1038395047.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/contactme/contactme-1038395047.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -220,8 +220,8 @@ ul {
 
 @media (min-width: 577px) and (max-width: 768px) {
   #contact-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/contactme/contactme-1038395047.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/contactme/contactme-1038395047.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/contactme/contactme-1038395047.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/contactme/contactme-1038395047.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -231,8 +231,8 @@ ul {
 
 @media (min-width: 769px) {
   #contact-cover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("/images/contactme/contactme-1038395047.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("/images/contactme/contactme-1038395047.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0))), url("../images/contactme/contactme-1038395047.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url("../images/contactme/contactme-1038395047.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -261,8 +261,8 @@ ul {
 }
 
 #blog-main-cover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(239, 239, 239, 0))), url("/images/blog/header.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(239, 239, 239, 0)), url("/images/blog/header.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(239, 239, 239, 0))), url("../images/blog/header.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(239, 239, 239, 0)), url("../images/blog/header.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -270,8 +270,8 @@ ul {
 }
 
 #blog1-cover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(239, 239, 239, 0))), url("/images/blog/blog1.png");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(239, 239, 239, 0)), url("/images/blog/blog1.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(239, 239, 239, 0))), url("../images/blog/blog1.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(239, 239, 239, 0)), url("../images/blog/blog1.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -279,8 +279,8 @@ ul {
 }
 
 #blog2-cover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(239, 239, 239, 0))), url("/images/blog/blog2.png");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(239, 239, 239, 0)), url("/images/blog/blog2.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(239, 239, 239, 0))), url("../images/blog/blog2.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(239, 239, 239, 0)), url("../images/blog/blog2.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -288,8 +288,8 @@ ul {
 }
 
 #blog3-cover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(239, 239, 239, 0))), url("/images/blog/blog3.png");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(239, 239, 239, 0)), url("/images/blog/blog3.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(239, 239, 239, 0))), url("../images/blog/blog3.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(239, 239, 239, 0)), url("../images/blog/blog3.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;

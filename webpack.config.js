@@ -1,6 +1,8 @@
 // Webpack uses this to work with directories
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const TerserPlugin = require('terser-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 // This is the main configuration object.
 // Here you write different options and tell Webpack what to do
@@ -9,11 +11,22 @@ module.exports = {
   // Path to your entry point. From this file Webpack will begin his work
   entry: './src/javascript/index.js',
 
+  //devtool: 'inline-source-map',
+  /*// can run with webserver in future, but read this article first https://stackoverflow.com/questions/35233291/running-a-node-express-server-using-webpack-dev-server
+  devServer: {
+    contentBase: './public',
+  },
+  ////end of add
+  */
   // Path and filename of your result bundle.
   // Webpack will bundle all JavaScript into this file
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
+  },
+  optimization: {
+    minimize: true, 
+    minimizer: [new OptimizeCssAssetsPlugin() ,new TerserPlugin()],
   },
   module: {
     rules: [{
@@ -66,7 +79,8 @@ module.exports = {
           // In options we can set different things like format
           // and directory to save
           options: {
-            outputPath: 'images'
+            outputPath: 'images',
+            name: "[name].[hash].[ext]"
           }
         }]
       },
@@ -84,7 +98,6 @@ module.exports = {
     ]
   },
   plugins: [
-
     new MiniCssExtractPlugin({
       filename: "bundle.css"
     })
@@ -93,5 +106,5 @@ module.exports = {
   // Depending on mode Webpack will apply different things
   // on final bundle. For now we don't need production's JavaScript 
   // minifying and other thing so let's set mode to development
-  mode: 'development'
+  mode: 'production'
 };

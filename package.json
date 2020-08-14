@@ -6,7 +6,10 @@
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
     "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.prod.js",
+    "devbuild": "webpack --config webpack.dev.js",
+    "devserver": "npm run devbuild && npm run serverstart",
+    "originalbuild": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
@@ -40,6 +43,9 @@
     "sass": "^1.26.10",
     "sass-loader": "^9.0.3",
     "style-loader": "^1.2.1",
-    "uglifyjs-webpack-plugin": "^2.2.0"
+    "terser-webpack-plugin": "^4.1.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.1"
   }
 }

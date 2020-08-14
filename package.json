@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
     "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart",
-    "build": "webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.config.js",
     "devbuild": "webpack --config webpack.dev.js",
     "devserver": "npm run devbuild && npm run serverstart",
     "originalbuild": "webpack --config webpack.config.js"

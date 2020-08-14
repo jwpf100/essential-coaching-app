@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 //Using this to include the bootstrap js modules - to be replaced with webpack
-app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')));
+//app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')));
 
 app.use('/index', indexRouter);
 app.use('/users', usersRouter);

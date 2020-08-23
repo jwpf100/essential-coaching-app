@@ -2,7 +2,7 @@
 
 @media (max-width: 576px) {
   #contact-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('../images/contactme/contactme-1038395047.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url('../images/contactme/contactme-2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -12,7 +12,7 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
   #contact-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('../images/contactme/contactme-1038395047.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url('../images/contactme/contactme-2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -22,7 +22,7 @@
 
 @media (min-width: 769px) {
 #contact-cover { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('../images/contactme/contactme-1038395047.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url('../images/contactme/contactme-2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -31,7 +31,7 @@
 }
 
 .contact-background {
-  background:  rgba(239, 239, 239, 0.2);
+  background:  rgba(239, 239, 239, 0.5);
 }
 
 .contact-icons {

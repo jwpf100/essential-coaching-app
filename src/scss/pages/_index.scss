@@ -6,6 +6,8 @@
     background-size: cover;
     min-height: 60vh;
   }
+  .lead-mobile {
+  }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -15,6 +17,10 @@
     background-position: top right;
     background-size: cover;
     min-height: 60vh;
+  }
+  .lead-mobile {
+    font-size: 125%;
+    font-weight: 300;
   }
 }
 
@@ -26,6 +32,10 @@
     background-size: cover;
     min-height: 60vh;
   }
+  .lead-mobile {
+    font-size: 125%;
+    font-weight: 300;
+  }
 }
 
 @media (min-width: 1201px) {
@@ -35,6 +45,10 @@
       background-position: top right;
       background-size: cover;
       min-height: 60vh;
+    }
+    .lead-mobile {
+      font-size: 125%;
+      font-weight: 300;
     }
   }
 
@@ -46,6 +60,10 @@
       background-size: cover;
       min-height: 60vh;
     }
+    .lead-mobile {
+      font-size: 125%;
+      font-weight: 300;
+    }
   }
 
 .shadow-header {
@@ -55,3 +73,13 @@
 .alternative-color {
   background-color: rgba(202, 235, 242, 0.2);
 }
+
+.blog-anchor {
+  &:hover{
+    .blog-image {
+          width: 160px;
+          height: 160px;
+        }
+      }
+    }
+  

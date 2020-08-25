@@ -317,6 +317,67 @@ ul {
   min-height: 60vh;
 }
 
+@media (max-width: 576px) {
+  #career-cover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#a9a9a940)), url("../images/careercoaching/nikki-headshot.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #a9a9a940), url("../images/careercoaching/nikki-headshot.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 60vh;
+  }
+  .title-mobile {
+    background: #efefef80;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  #career-cover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#a9a9a940)), url("../images/careercoaching/nikki-headshot.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #a9a9a940), url("../images/careercoaching/nikki-headshot.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 60vh;
+  }
+  .title-mobile {
+    background: #efefef80;
+  }
+}
+
+@media (min-width: 769px) {
+  #career-cover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("../images/careercoaching/nikki-wide-headshot.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/careercoaching/nikki-wide-headshot.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 60vh;
+  }
+}
+
+@media (min-width: 1201px) {
+  #career-cover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("../images/careercoaching/nikki-wide-headshot.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/careercoaching/nikki-wide-headshot.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 60vh;
+  }
+}
+
+@media (min-width: 1500px) {
+  #career-cover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("../images/careercoaching/nikki-wide-headshot.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/careercoaching/nikki-wide-headshot.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 60vh;
+  }
+}
+
 .features-icons .features-icons-item {
   max-width: 20rem;
 }

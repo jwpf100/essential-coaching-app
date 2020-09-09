@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')));
 
 //In development use src
-app.use('/src', express.static(path.join(__dirname, 'src')));
+// app.use('/src', express.static(path.join(__dirname, 'src')));
 
 
 // app.use('/index', indexRouter);

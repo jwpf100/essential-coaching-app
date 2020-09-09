@@ -17,6 +17,11 @@ var careerCoachingRouter = require('./routes/career-coaching');
 
 var app = express();
 
+//Require middleware
+const middleware = require('./middleware')
+
+//end of added code
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -25,6 +30,8 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+//Use middleware to force SSL
+app.use(middleware.forceSSL)
 app.use(express.static(path.join(__dirname, 'public')));
 //Using this to include the bootstrap js modules - to be replaced with webpack
 //app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')));

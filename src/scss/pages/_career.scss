@@ -1,8 +1,8 @@
 @media (max-width: 576px) {
   #career-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), #a9a9a940), url('../images/careercoaching/nikki-headshot.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #a9a9a940), url('../images/careercoaching/shoots.jpg');
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom;
     background-size: cover;
     min-height: 60vh;
   }
@@ -13,9 +13,9 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
   #career-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), #a9a9a940), url('../images/careercoaching/nikki-headshot.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #a9a9a940), url('../images/careercoaching/shoots.jpg');
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom;
     background-size: cover;
     min-height: 60vh;
   }
@@ -26,9 +26,9 @@
 
 @media (min-width: 769px) {
 #career-cover { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url('../images/careercoaching/nikki-wide-headshot.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url('../images/careercoaching/shoots.jpg');
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom;
     background-size: cover;
     min-height: 60vh;
   }
@@ -36,9 +36,9 @@
 
 @media (min-width: 1201px) {
   #career-cover { 
-      background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url('../images/careercoaching/nikki-wide-headshot.jpg');
+      background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url('../images/careercoaching/shoots.jpg');
       background-repeat: no-repeat;
-      background-position: center top;
+      background-position: center bottom;
       background-size: cover;
       min-height: 60vh;
     }
@@ -46,10 +46,14 @@
 
 @media (min-width: 1500px) {
   #career-cover { 
-      background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url('../images/careercoaching/nikki-wide-headshot.jpg');
+      background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url('../images/careercoaching/shoots.jpg');
       background-repeat: no-repeat;
-      background-position: center top;
+      background-position: center bottom;
       background-size: cover;
       min-height: 60vh;
     }
+  }
+
+  .mobile-header {
+    text-align: center;
   }

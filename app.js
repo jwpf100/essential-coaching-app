@@ -42,13 +42,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // app.use('/index', indexRouter);
 // app.use('/users', usersRouter);
+
 app.use('/', homeRouter);
 app.use('/aboutme', aboutmeRouter);
 app.use('/contact', contactRouter);
-app.use('/blog1', blog1Router);
-app.use('/blog2', blog2Router);
+app.use('/what-is-career-coaching', blog1Router);
+app.use('/why-do-i-need-a-careers-coach', blog2Router);
 app.use('/what-kind-of-careers-coach-do-i-need', blog3Router);
-app.use('/blogmain', blogmainRouter);
+app.use('/the-essential-career-blog', blogmainRouter);
 app.use('/career-coaching', careerCoachingRouter);
 
 // catch 404 and forward to error handler

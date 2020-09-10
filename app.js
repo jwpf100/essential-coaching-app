@@ -47,7 +47,7 @@ app.use('/aboutme', aboutmeRouter);
 app.use('/contact', contactRouter);
 app.use('/blog1', blog1Router);
 app.use('/blog2', blog2Router);
-app.use('/blog3', blog3Router);
+app.use('/what-kind-of-careers-coach-do-i-need', blog3Router);
 app.use('/blogmain', blogmainRouter);
 app.use('/career-coaching', careerCoachingRouter);
 

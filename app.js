@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const engine = require('ejs-locals');
 
 // var indexRouter = require('./routes/index');
 // var usersRouter = require('./routes/users');
@@ -18,6 +19,8 @@ const { Router } = require('express');
 //end of added code
 
 // view engine setup
+app.engine('ejs', engine);
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 

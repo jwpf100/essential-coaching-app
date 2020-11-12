@@ -6,7 +6,12 @@
   <main role="main">
     <%-body -%>
   </main>
+  <% if (title === 'Contact Details - Essential Coaching') { %>
   <%- include partials/footer %>
+  <% } else { %>
+  <%- include partials/newsletter %>
+  <%- include partials/footer %>
+  <% } %>
   <%- include partials/scripts %>
 </body>
 </html>

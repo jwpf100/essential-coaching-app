@@ -6,19 +6,14 @@ var logger = require('morgan');
 
 // var indexRouter = require('./routes/index');
 // var usersRouter = require('./routes/users');
-var homeRouter = require('./routes/home');
-var aboutmeRouter = require('./routes/aboutme');
-var contactRouter = require('./routes/contact');
-var blog1Router = require('./routes/blog1');
-var blog2Router = require('./routes/blog2');
-var blog3Router = require('./routes/blog3');
-var blogmainRouter = require('./routes/blogmain');
-var careerCoachingRouter = require('./routes/career-coaching');
+
+const router = require('./routes/index')
 
 var app = express();
 
 //Require middleware
-const middleware = require('./middleware')
+const middleware = require('./middleware');
+const { Router } = require('express');
 
 //end of added code
 
@@ -30,9 +25,11 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+
 //Use middleware to force SSL
 app.use(middleware.forceSSL)
 app.use(express.static(path.join(__dirname, 'public')));
+
 //Using this to include the bootstrap js modules - to be replaced with webpack
 //app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')));
 
@@ -40,17 +37,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // app.use('/src', express.static(path.join(__dirname, 'src')));
 
 
-// app.use('/index', indexRouter);
-// app.use('/users', usersRouter);
-
-app.use('/', homeRouter);
-app.use('/aboutme', aboutmeRouter);
-app.use('/contact', contactRouter);
-app.use('/what-is-career-coaching', blog1Router);
-app.use('/why-do-i-need-a-careers-coach', blog2Router);
-app.use('/what-kind-of-careers-coach-do-i-need', blog3Router);
-app.use('/the-essential-career-blog', blogmainRouter);
-app.use('/career-coaching', careerCoachingRouter);
+app.use('/', router)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

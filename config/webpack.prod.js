@@ -14,14 +14,23 @@ module.exports = merge(common, {
     //filename: 'js/[name].[contenthash].bundle.js',
     filename: 'bundle.js',
   },
-  plugins: [],
   module: {
-    rules: [],
+    rules: [/*
+      {
+        test: /\.css$/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'resolve-url-loader']
+      },
+    */],
   },
+  /*plugins: [
+    new MiniCssExtractPlugin({
+      filename: '[name].[contenthash].css',
+    }),
+  ],*/
   optimization: {},
   performance: {
     hints: false,
     maxEntrypointSize: 512000,
     maxAssetSize: 512000,
   },
-})
+});

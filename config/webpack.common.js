@@ -6,6 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   // Where webpack looks to start building the bundle
+  //entry: [paths.src + '/javascript/index.js'],
   entry: [paths.src + '/javascript/index.js'],
 
   // Where webpack outputs the assets and bundles

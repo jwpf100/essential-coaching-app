@@ -1,0 +1,54 @@
+/* Set a background image by replacing the URL below */
+
+@media (max-width: 576px) {
+  #contact-cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url('../images/contactme/contactme-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  #contact-cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url('../images/contactme/contactme-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 769px) {
+#contact-cover { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url('../images/contactme/contactme-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+}
+
+.contact-background {
+  background:  rgba(239, 239, 239, 0.5);
+}
+
+.contact-icons {
+  .contact-icons-item {
+    max-width: 20rem;
+    .contact-icons-icon {
+      height: 5rem;
+      i {
+        font-size: 3rem;
+      }
+    }
+    &:hover {
+      .contact-icons-icon {
+        i {
+          font-size: 3.5rem;
+        }
+      }
+    }
+  }
+}

@@ -33,13 +33,6 @@ app.use(cookieParser());
 app.use(middleware.forceSSL)
 app.use(express.static(path.join(__dirname, 'public')));
 
-//Using this to include the bootstrap js modules - to be replaced with webpack
-//app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')));
-
-//In development use src
-// app.use('/src', express.static(path.join(__dirname, 'src')));
-
-
 app.use('/', router)
 
 // catch 404 and forward to error handler

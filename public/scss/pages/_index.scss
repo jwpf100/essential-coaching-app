@@ -1,0 +1,83 @@
+@media (max-width: 576px) {
+  #home-cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('../images/hero/hero-brick.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    min-height: 60vh;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  #home-cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('../images/hero/hero-brick.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    min-height: 60vh;
+  }
+  .lead-mobile {
+    font-size: 125%;
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 769px) {
+#home-cover { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('../images/hero/hero-brick.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    min-height: 60vh;
+  }
+  .lead-mobile {
+    font-size: 125%;
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 1201px) {
+  #home-cover { 
+      background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('../images/hero/hero-brick.jpg');
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: cover;
+      min-height: 60vh;
+    }
+    .lead-mobile {
+      font-size: 125%;
+      font-weight: 300;
+    }
+  }
+
+@media (min-width: 1500px) {
+  #home-cover { 
+      background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.0)), url('../images/hero/hero-brick.jpg');
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: cover;
+      min-height: 60vh;
+    }
+    .lead-mobile {
+      font-size: 125%;
+      font-weight: 300;
+    }
+  }
+
+.shadow-header {
+  text-shadow: 2px 2px 2px black ;
+}
+
+.alternative-color {
+  background-color: rgba(202, 235, 242, 0.2);
+}
+
+// .blog-anchor {
+//   &:hover{
+//     .blog-image {
+//           width: 160px;
+//           height: 160px;
+//         }
+//       }
+//     }
+  

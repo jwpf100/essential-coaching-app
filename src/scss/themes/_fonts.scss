@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
-$font-family-base: 'Lato', sans-serif;
+$font-family-base: "Lato", sans-serif;
 
-$headings-font-family: 'Merriweather', serif;
+$headings-font-family: "Merriweather", serif;
 
 $enable-responsive-font-sizes: true;
 
@@ -12,11 +12,11 @@ $enable-responsive-font-sizes: true;
 
 $line-height-base: 1.75;
 
+$fa-font-path: "../fonts/webfonts/";
 @import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 @import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 @import "../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
-// @import "../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims.scss";
 
-
+$simple-line-font-path: "../fonts/webfonts/";
 @import "../../../node_modules/simple-line-icons/scss/simple-line-icons.scss";
